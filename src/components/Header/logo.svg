@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  width="200"
+  height="60"
+  viewBox="0 0 200 60"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="logoTitle"
+>
+  <title id="logoTitle">YourCompany Logo</title>
+  
+  <!-- Define a linear gradient for the shape -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4CAF50" />
+      <stop offset="100%" stop-color="#8BC34A" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Geometric shape: A hexagon -->
+  <polygon
+    points="30,15 45,5 60,15 60,35 45,45 30,35"
+    fill="url(#gradient)"
+  />
+  
+  <!-- Company Name -->
+  <text
+    x="70"
+    y="35"
+    font-family="Arial, sans-serif"
+    font-size="20"
+    fill="#333"
+    font-weight="bold"
+  >
+    Ascenfo Tech
+  </text>
+</svg>
